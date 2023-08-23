@@ -1,0 +1,16 @@
+
+body {
+    background-color: rgb(70, 69, 69);
+}
+
+header {
+    background-color: green;
+}
+
+main {
+    background-color: red;
+}
+
+footer {
+    background-color: yellow;
+}
