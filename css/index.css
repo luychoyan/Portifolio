@@ -8,7 +8,7 @@ body {
     font-size: 1.1em;
     color: aliceblue;
     font-style: normal;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507); 
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.644); 
 }
 
 header {
@@ -62,7 +62,12 @@ footer {
     align-items: center;
     padding: 20px;
 }
-#imagens-skills > img{
+#skills-icones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#imagens-skills > img {
     width: 50px;
     margin: 15px;
     filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.521));
